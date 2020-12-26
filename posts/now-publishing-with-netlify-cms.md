@@ -1,9 +1,11 @@
 ---
 title: Now Publishing With Netlify CMS!
-author: Will Jay
+author: Unknown
 date: 2020-01-05T07:18:52.042Z
-thumbnail: /images/netlifyicon.png
+thumbnail: /images/telegram.jpeg
 ---
-We're now publishing remotely. Calling on all who would like to contribute to my blog!
+Telegram, nearing 500 million users, to begin monetizing the app
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jsLUidiYm0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Instant messaging app Telegram  is “approaching” 500 million users and plans to generate revenue starting next year to keep the business afloat, its founder Pavel Durov said on Wednesday.
+
+Durov said he has personally bankrolled the seven-year-old business so far, but as the startup scales he is looking for ways to monetize the instant messaging service. “A project of our size needs at least a few hundred million dollars per year to keep going,” he said.
