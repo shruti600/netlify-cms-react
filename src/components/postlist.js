@@ -10,16 +10,17 @@ const PostList = () => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
     return (
-        <div className="postlist">
+        <div className="postlist" style={{width:'50%'}}>
             <h1 className="title">All Posts</h1>
             {postlist.length && 
                 postlist.map((post, i) => {
                     return (
                         <div key={i} className="post-card">
                              <div className="img-container">
-                                {post.thumbnail && <img className="thumbnail" width={80} src={post.thumbnail} alt=""/> }
-                                <h2 className="post-title"><Link className="links" to={`/post/${post.id}`}>{post.title}</Link></h2>
+                                {post.thumbnail && <img className="thumbnail" width={600} src={post.thumbnail} alt="" style={{height:'350px'}}/> }
+                                
                             </div>
+                            <h2 className="post-title" style={{marginTop:'15px'}}><Link className="links" to={`/post/${post.id}`}>{post.title}</Link></h2>
                             <small>Published on {post.date} by {post.author}</small>
                             <hr/>
                             <Markdown source={excerptList[i]} escapeHtml={false} />

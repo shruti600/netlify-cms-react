@@ -18,9 +18,15 @@ h1 {
 }
 
 .header {
-    background: navy;
-    color: lightblue;
+    background: black;
+    color: yellow;
+    /* background: navy; */
+    /* color: lightblue; */
     padding: 10px 20px;
+    margin-bottom: 20px;
+    -moz-box-shadow:0 5px 5px rgba(30, 150, 209, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(75, 149, 203, 0.75);
+    box-shadow: 0 5px 5px rgba(16, 56, 105, 0.75);
 }
 
 .navbar {
@@ -46,6 +52,8 @@ h1 {
 
 .img-container {
     display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .thumbnail {

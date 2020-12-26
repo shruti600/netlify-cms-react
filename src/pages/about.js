@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 const About = () => {
     return (
         <Layout>
-             <h1 style={{textAlign: `center`, marginBottom: `40px`}}>This is the About Page.</h1>
+             <h1 style={{textAlign: `center`, marginBottom: `40px`}}>This is a React based CMS.</h1>
             <div className="page-content">
                 <Markdown source={aboutText[0].content} escapeHtml={false} />
             </div>

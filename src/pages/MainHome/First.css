@@ -1,0 +1,19 @@
+.mainpage{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    height:85vh;
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center; 
+}
+.fullpage{
+    background: black;
+    color: yellow;
+    margin-top: -15px;
+    /* background: #000046;  
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046); 
+background: linear-gradient(to right, #1CB5E0, #000046);   */
+}
