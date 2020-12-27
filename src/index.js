@@ -8,11 +8,13 @@ import About from "./pages/about"
 import Post from "./pages/post"
 import NotFound from "./pages/notfound"
 import FirstHome from './pages/MainHome/FirstHome';
+import Features from './pages/Features';
 
 ReactDOM.render(
     <Router>
         <div>
             <Route exact path="/" component={FirstHome} />
+            <Route exact path="/features" component={Features} />
             <Route exact path="/allposts" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/404" component={NotFound} />

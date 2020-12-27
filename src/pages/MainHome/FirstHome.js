@@ -6,6 +6,8 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Boxes from './Boxes';
 import {Link} from 'react-router-dom'
+import Specification from './Specification';
+import Importance from './Importance';
 
 let texts=[
     "User-friendly", 
@@ -70,6 +72,9 @@ export default function FirstHome() {
         
         <img src={Image} width="100%" style={{height:'650px'}} />
         <Boxes />
+        <Specification />
+        <Importance />
+        <br />
         <Footer />
         </>
     )

@@ -13,7 +13,7 @@ export default class Boxcard extends Component {
             >
                 <FrontSide
                 style={{
-                    backgroundColor: 'white',color:'navy', fontWeight:'bold'
+                    backgroundColor: 'white',color:'navy', fontWeight:'bold', borderRadius:'10px'
                 }}
                 >
                     <div className="uk-margin-medium-top">
@@ -26,7 +26,7 @@ export default class Boxcard extends Component {
                     </div>
                 </FrontSide>
                 <BackSide
-                style={{ backgroundColor: 'navy', color:'white'}}>
+                style={{ backgroundColor: 'yellow', color:'black'}}>
                 ROCKS
                 </BackSide>
             </Flippy>

@@ -11,7 +11,7 @@ const PostList = () => {
     })
     return (
         <div className="postlist" style={{width:'50%'}}>
-            <h1 className="title">All Posts</h1>
+            <h1 className="title" style={{color:'yellow'}}>All Posts</h1>
             {postlist.length && 
                 postlist.map((post, i) => {
                     return (
