@@ -6,6 +6,8 @@ thumbnail: /images/tesla.jpg
 ---
 <!--StartFragment-->
 
+<img src="https://o.aolcdn.com/images/dims?thumbnail=640%2C&quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-10%2Fba1d7570-1bb7-11eb-b13c-b010545fb6c4&client=amp-blogside-v2&signature=7302c108035c8f0ccc1c313928ea05ef50772430" />
+
 Your Tesla could soon broadcast your taste in music to the world — if you have the right car, at least. *Electrek* [notes](https://electrek.co/2020/12/26/tesla-software-update-turns-your-car-into-boombox-more/) that Tesla has released its promised holiday update, and the centerpiece appears to be a Boombox mode that pumps media outside as long as you have a recent-enough EV with a [pedestrian speaker system](https://www.engadget.com/2020-01-12-tesla-cars-talk-to-pedestrians.html), like later Model 3 production runs. You probably won’t be using this for parties during the pandemic and should check local laws, but it’s more efficient (not to mention safer) than cranking up the normal volume and leaving a window open.
 
 Elon Musk [added](https://twitter.com/elonmusk/status/1342574459882852352) that you can customize the horn sound on these newer cars to something beyond the usual honk. Other updates include a smarter Scheduled Departure that preconditions the battery and cabin without plugging in, larger driving visualizations (helpful for Autopilot) and at-a-glance views of the number of open stalls at [Superchargers](https://www.engadget.com/2019-09-29-tesla-first-major-v3-supercharger-rollout-in-canada.html).
