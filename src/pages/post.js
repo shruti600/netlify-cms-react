@@ -27,7 +27,7 @@ const Post = (props) => {
     return (
         <Layout>
             <div className="post">
-                <h2>{fetchedPost.title}</h2>
+                <h2 style={{marginTop:'15px', fontFamily:'Times New Roman', fontSize:'40px'}}>{fetchedPost.title}</h2>
                 <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
                 <hr/>
                 <Markdown source={fetchedPost.content} escapeHtml={false} />

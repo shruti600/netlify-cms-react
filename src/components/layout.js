@@ -7,7 +7,7 @@ import "./components.css"
 
 const Layout = ({children}) => {
     return (
-        <div className="layout" style={{background:'black', color:'yellow'}}>
+        <div className="layout" >
             <Header />
             {/* <Navbar /> */}
             <div className="layout-body">

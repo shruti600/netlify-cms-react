@@ -34,7 +34,7 @@ export default function FirstHome() {
                     </h2>
                     <div className="uk-flex uk-flex-center" style={{paddingTop:'10px'}}>
                         <Link to="allposts" style={{textDecoration:'none', color:'black', background:'yellow', padding:'10px 20px', borderRadius:'8px', fontWeight:'500', fontSize:'20px'}}><ReactTextTransition
-                        text="Get Started"
+                        text="View Posts"
                         delay={800}            
                         direction='right'
                         overflow
@@ -70,11 +70,10 @@ export default function FirstHome() {
         </div>
         </div>
         
-        <img src={Image} width="100%" style={{height:'650px'}} />
+        <img src="https://ucarecdn.com/14beee94-6fb3-4d19-919c-6446a2a748fa/" width="100%" style={{height:'500px'}} />
         <Boxes />
         <Specification />
         <Importance />
-        <br />
         <Footer />
         </>
     )

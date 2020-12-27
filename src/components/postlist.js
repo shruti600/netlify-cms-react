@@ -11,20 +11,19 @@ const PostList = () => {
     })
     return (
         <div className="postlist" style={{width:'50%'}}>
-            <h1 className="title" style={{color:'yellow'}}>All Posts</h1>
+            <h1 className="title" style={{color:'navy'}}>All Posts</h1>
             {postlist.length && 
                 postlist.map((post, i) => {
                     return (
-                        <div key={i} className="post-card">
-                             <div className="img-container">
+                        <div key={i} className="post-card" style={{ background:'black'}}>
+                            <div className="img-container">
                                 {post.thumbnail && <img className="thumbnail" width={600} src={post.thumbnail} alt="" style={{height:'350px'}}/> }
-                                
                             </div>
-                            <h2 className="post-title" style={{marginTop:'15px'}}><Link className="links" to={`/post/${post.id}`}>{post.title}</Link></h2>
-                            <small>Published on {post.date} by {post.author}</small>
+                            <h2 className="post-title" style={{marginTop:'15px', fontFamily:'Times New Roman'}}><Link className="links" to={`/post/${post.id}`} style={{textDecoration:'none', color:'white'}}>{post.title}</Link></h2>
+                            <small style={{fontFamily:'sans-serif', color:'white'}}>Published on {post.date} by {post.author}</small>
                             <hr/>
-                            <Markdown source={excerptList[i]} escapeHtml={false} />
-                            <small><Link className="links" to={`/post/${post.id}`}>Read more</Link></small>
+                            <Markdown source={excerptList[i]} escapeHtml={false} style={{color:'white'}} />
+                            <small style={{}}><Link className="links" to={`/post/${post.id}`} style={{textDecoration:'none', color:'white'}}>Read more</Link></small>
                         </div>
                     )
                 })

@@ -14,7 +14,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     min-height: 90vh;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .header {

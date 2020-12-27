@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" style={{background:'black', color:'gold'}}>
             <hr/>
             <div className="uk-flex uk-flex-center">
                 <div className="uk-flex uk-flex-center uk-width-1-2@s">
@@ -20,7 +20,7 @@ const Footer = () => {
                     <div>Feedback</div>
                 </div>
             </div>
-            <p>&copy; Copyright {new Date().getFullYear()} Content Management System</p>
+            <p style={{marginBottom:'0'}}>&copy; Copyright {new Date().getFullYear()} Content Management System</p>
         </div>
     )
 }
