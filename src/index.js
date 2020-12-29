@@ -17,7 +17,7 @@ ReactDOM.render(
             <Route exact path="/features" component={Features} />
             <Route exact path="/allposts" component={Home} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/404" component={NotFound} />
+            <Route component={NotFound} />
             <Route exact path="/post/:id" render={props => <Post {...props} />} />
         </div>
     </Router>, 
